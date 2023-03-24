@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="10.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <Label text="Professor:" />
+            <Label text="Rodrigo Vasconcellos" />
+            <Label text="ID:" />
+            <Label text="01010202" />
+         </children>
+      </HBox>
+      <TextField promptText="Curso" />
+      <TextField promptText="Turma" />
+      <TextField promptText="Materia" />
+      <DatePicker promptText="Data" />
+      <Button mnemonicParsing="false" text="Entrar">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>

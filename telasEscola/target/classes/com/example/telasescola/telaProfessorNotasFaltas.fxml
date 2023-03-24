@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <Label text="Curso:" />
+            <Label text="ADS" />
+            <Label text="Turma:" />
+            <Label text="A" />
+            <Label text="Materia: " />
+            <Label text="Algoritimo" />
+            <Label text="Data:" />
+            <Label text="25/03/2023" />
+         </children>
+      </HBox>
+      <TableView prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Aluno" />
+          <TableColumn prefWidth="75.0" text="Nota B1" />
+            <TableColumn prefWidth="75.0" text="Faltas B1" />
+            <TableColumn prefWidth="75.0" text="Nota B2" />
+            <TableColumn prefWidth="75.0" text="Faltas B2" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>
