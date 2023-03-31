@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="600.0" spacing="5.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label text="Cadastro Curso">
+            <font>
+                <Font size="18.0" />
+            </font></Label>
+        <HBox prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+            <children>
+                <Label text="ID:" />
+                <Label text="01010202" />
+            </children>
+        </HBox>
+        <TextField promptText="Nome" />
+        <TextField promptText="Carga horaria total" />
+        <TextField promptText="Descrição" />
+        <VBox prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+            <children>
+                <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                    <children>
+                        <Button mnemonicParsing="false" text="Salvar" />
+                        <Button mnemonicParsing="false" text="Voltar" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</VBox>

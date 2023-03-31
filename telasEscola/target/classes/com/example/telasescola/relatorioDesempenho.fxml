@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="10.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="Relatorio de desempenho">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TableView prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Curso" />
+          <TableColumn prefWidth="75.0" text="Turma" />
+            <TableColumn prefWidth="75.0" text="Semestre" />
+            <TableColumn prefWidth="176.0" text="porcentagem de aprovação" />
+        </columns>
+      </TableView>
+      <Button mnemonicParsing="false" text="Voltar" />
+   </children>
+</VBox>

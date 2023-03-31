@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="10.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="Menu admin">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <Label text="Funcinario: " />
+            <Label text="Rodrigo" />
+            <Label text="ID:" />
+            <Label text="0101" />
+         </children>
+      </HBox>
+      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="122.0" text="Cadastro Aluno" />
+      <Button mnemonicParsing="false" text="Cadastro Funcinario" />
+      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" text="Cadastro Curso" />
+      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" text="Cadastro Turma" />
+      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="124.0" text="Cadastro Materia " />
+      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="125.0" text="Relatorio" />
+      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="127.0" text="Sair" />
+   </children>
+</VBox>

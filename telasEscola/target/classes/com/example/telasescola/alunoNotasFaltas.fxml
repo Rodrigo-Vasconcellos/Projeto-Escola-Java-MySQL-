@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="10.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <Label text="Aluno:" />
+            <Label text="Rodrigo Vasconcellos" />
+            <Label text="ID:" />
+            <Label text="0101" />
+            <Label text="Curso:" />
+            <Label text="ADS" />
+            <Label text="Turma:" />
+            <Label text="A" />
+            <Label text="Data:" />
+            <Label text="25/03/2023" />
+         </children>
+      </HBox>
+      <TableView prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="135.0" text="Materias" />
+          <TableColumn prefWidth="54.0" text="Nota B1" />
+            <TableColumn prefWidth="55.0" text="Faltas B1" />
+            <TableColumn prefWidth="52.0" text="Nota B2" />
+            <TableColumn prefWidth="55.0" text="Faltas B2" />
+            <TableColumn prefWidth="51.0" text="Media" />
+            <TableColumn prefWidth="77.0" text="Total Faltas" />
+            <TableColumn prefWidth="120.0" text="Desempenho" />
+        </columns>
+      </TableView>
+      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="64.0" text="Voltar" />
+   </children>
+</VBox>

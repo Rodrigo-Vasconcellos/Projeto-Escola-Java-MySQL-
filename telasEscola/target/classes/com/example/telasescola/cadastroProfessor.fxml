@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="600.0" spacing="5.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label text="Cadastro funcinario">
+            <font>
+                <Font size="24.0" />
+            </font></Label>
+        <HBox prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+            <children>
+                <Label text="ID:" />
+                <Label text="01010202" />
+            </children>
+        </HBox>
+        <TextField promptText="Nome" />
+        <TextField promptText="RG" />
+        <TextField promptText="CPF" />
+        <TextField promptText="CPE" />
+        <TextField promptText="Rua" />
+        <TextField promptText="Numero" />
+        <TextField promptText="Municipio" />
+        <TextField promptText="Estado" />
+      <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <RadioButton mnemonicParsing="false" text="Professor" />
+            <RadioButton mnemonicParsing="false" text="Administrativo" />
+            <RadioButton mnemonicParsing="false" text="Manutenção" />
+            <RadioButton mnemonicParsing="false" text="Diretor" />
+         </children>
+      </HBox>
+        <VBox prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+            <children>
+                <DatePicker promptText="Data Nascicnto" />
+                <DatePicker promptText="Data do Cadastro" />
+                <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                    <children>
+                        <Button mnemonicParsing="false" text="Salvar" />
+                        <Button mnemonicParsing="false" text="Voltar" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</VBox>
